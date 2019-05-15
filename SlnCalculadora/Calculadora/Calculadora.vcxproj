@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{1B13D86E-0975-4686-96EB-6FE24C8C8997}</ProjectGuid>
+    <ProjectGuid>{E2336444-3926-409C-BFB7-E79DBCAE6A8E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Calculadoraxd</RootNamespace>
+    <RootNamespace>Calculadora</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,10 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Calculator.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calculadora xd.cpp" />
+    <ClCompile Include="Calculadora.cpp" />
+    <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
